@@ -6,7 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base: "/abhijith-portfolio",
+
   resolve:{
     alias:{
       "@": path.resolve(__dirname,"./src"),
@@ -15,5 +15,6 @@ export default defineConfig({
   server:{
     port:3000,
     open: true
-  }
+  },
+    base: "/abhijith-portfolio",
 })
