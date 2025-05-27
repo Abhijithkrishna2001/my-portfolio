@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route index element ={<Homes/>} />
-          <Route path="*" element ={<NotFound/>} />
+          {/* <Route path="*" element ={<NotFound/>} /> */}
         </Routes>
       </Router>
     </>
