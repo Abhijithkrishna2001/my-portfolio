@@ -6,6 +6,7 @@ import path from 'path'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),tailwindcss()],
+  base: "/abhijith-portfolio",
 
   resolve:{
     alias:{
@@ -16,5 +17,5 @@ export default defineConfig({
     port:3000,
     open: true
   },
-    base: "/abhijith-portfolio",
+  
 })
