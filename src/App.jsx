@@ -7,9 +7,9 @@ function App() {
   return (
     <>
      <Toaster/>
-      <Router>
+      <Router basename="/my-portfolio" >
         <Routes>
-          <Route index element ={<Homes/>} />
+          <Route index element={<Homes />} />
         </Routes>
       </Router>
     </>
