@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://abhijithkrishna2001.github.io/my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,6 +23,7 @@
     "tailwind-merge": "^3.3.0",
     "tailwindcss": "^4.1.7"
   },
+  "homepage": "https://abhijithkrishna2001.github.io/my-portfolio",
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
